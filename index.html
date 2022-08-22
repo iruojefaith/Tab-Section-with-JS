@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.scss">
+    <title>Tab||Section</title>
+</head>
+<body>
+    <input type="radio" class="variation" id="solid" value="1" name="border" checked="checked" />
+    <label for="solid">
+        <span class="circle"></span>
+        <span>Flat UI</span>
+    </label>
+    <input type="radio" class="variation" id="shadow" value="2" name="border"  />
+    <label for="shadow">
+        <span class="circle"></span>
+        <span>Realistic</span>
+    </label>
+
+    <div class="folder">
+        <div class="tabs">
+            <button class="tab active" onclick="openTab(event, 'tab-1')">
+                <div><span>Work Stuff</span></div>
+            </button>
+            <button class="tab" onclick="openTab(event, 'tab-2')">
+                <div><span>Food</span></div>
+            </button>
+            <button class="tab" onclick="openTab(event, 'tab-3')">
+                <div><span>Baking</span></div>
+            </button>
+            <button class="tab" onclick="openTab(event, 'tab-4')">
+                <div><span>Cat</span></div>
+            </button>
+        </div>
+        <div class="content">
+            <div class="content-inner" id="tab-1">
+                <div class="page">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptatum, animi delectus perferendis deleniti labore
+                        obcaecati mollitia iste temporibus sapiente unde,
+                        quisquam nemo debitis excepturi maiores consequuntur? Iste molestias est dolore?
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptatum, animi delectus perferendis deleniti labore
+                        obcaecati mollitia iste temporibus sapiente unde,
+                        quisquam nemo debitis excepturi maiores consequuntur? Iste molestias est dolore?
+                    </p>
+                </div>
+            </div>
+             <div class="content-inner" id="tab-2">
+                <div class="page">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptatum, animi delectus perferendis deleniti labore
+                        obcaecati mollitia iste temporibus sapiente unde,
+                        quisquam nemo debitis excepturi maiores consequuntur? Iste molestias est dolore?
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptatum, animi delectus perferendis deleniti labore
+                        obcaecati mollitia iste temporibus sapiente unde,
+                        quisquam nemo debitis excepturi maiores consequuntur? Iste molestias est dolore?
+                    </p>
+                </div>
+            </div>
+             <div class="content-inner" id="tab-3">
+                <div class="page">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptatum, animi delectus perferendis deleniti labore
+                        obcaecati mollitia iste temporibus sapiente unde,
+                        quisquam nemo debitis excepturi maiores consequuntur? Iste molestias est dolore?
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptatum, animi delectus perferendis deleniti labore
+                        obcaecati mollitia iste temporibus sapiente unde,
+                        quisquam nemo debitis excepturi maiores consequuntur? Iste molestias est dolore?
+                    </p>
+                </div>
+            </div>
+             <div class="content-inner" id="tab-4">
+                <div class="page">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptatum, animi delectus perferendis deleniti labore
+                        obcaecati mollitia iste temporibus sapiente unde,
+                        quisquam nemo debitis excepturi maiores consequuntur? Iste molestias est dolore?
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptatum, animi delectus perferendis deleniti labore
+                        obcaecati mollitia iste temporibus sapiente unde,
+                        quisquam nemo debitis excepturi maiores consequuntur? Iste molestias est dolore?
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
